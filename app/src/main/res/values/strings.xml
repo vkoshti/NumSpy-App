@@ -1,15 +1,26 @@
 <resources>
     <string name="app_name">NumSpy</string>
+    <string name="versionName">1.0</string>
+    <string name="version">Version</string>
     <string name="ask_phone">Enter 10 Digit Phone Number</string>
     <string name="search">Search</string>
     <string name="author_name1">SAMEER BHATT</string>
-    <string name="sameer_bio">Open Source Tech Geek | Mozillian | Python Guy | Security research | Bug Hunter | penetration tester | Learner | Writer @secjuice | <a href="https://medium.com/bhattsameer5">medium.com/@bhattsameer5</a> </string>
+    <string name="sameer_bio">Open Source Tech Geek | Mozillian | Python Guy | Security research | Bug Hunter | penetration tester | Learner | Writer @secjuice | <a href="https://medium.com/bhattsameer5">medium.com/@bhattsameer5 |Debugger</a> </string>
     <string name="sam_website"><a href="http://bhattsameer.github.io">WEBSITE</a></string>
     <string name="sameer_github"><a href="https://github.com/bhattsameer">GITHUB</a></string>
     <string name="author_name2">VISHAL KOSHTI</string>
-    <string name="vishal_bio">Programmer | Android Developer\nSelf Learner\n Debugger</string>
+    <string name="vishal_bio">Programmer\nAndroid Developer\nSelf Learner</string>
     <string name="vishal_web"><a href="http://vishalkoshti165.wixsite.com/vishalk">WEBSITE</a></string>
     <string name="vishal_github"><a href="https://github.com/vkoshti">GITHUB</a></string>
     <string name="author">AUTHOR</string>
     <string name="app_info">Idea &amp; NumSpy API DESIGN BY:\n\n<b><u>Sameer Bhatt</u></b>\n\n\nAndroid App &amp; UI DESIGN BY:\n\n\<b><u>Vishal Koshti</u></b></string>
+    <string name="os_libraries">Open-Source Libraries</string>
+    <string name="android_support">Android Support Libraries</string>
+    <string name="android_support_link"><a href="http://developer.android.com/tools/support-library/index.html">http://developer.android.com/tools/support-library/index.html</a></string>
+    <string name="apache_license">
+        Copyright © %1$s %2$s\n\nLicensed under the Apache License, Version 2.0 (the "License");you may not use this file except in compliance with the License.You may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an "AS IS" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n
+    </string>
+    <string name="retrofit">Retrofit</string>
+    <string name="retrofit_link"><a href="https://github.com/square/retrofit">https://github.com/square/retrofit</a></string>
+
 </resources>

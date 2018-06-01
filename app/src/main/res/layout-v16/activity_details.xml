@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent">
 
     <android.support.design.widget.AppBarLayout
@@ -30,6 +31,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:layout_gravity="top"
+                    tools:ignore="contentDescription"
                     android:id="@+id/userImage"
                     android:layout_marginLeft="20dp"
                     android:layout_marginStart="20dp"
@@ -77,7 +79,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_margin="5dp"
@@ -94,20 +95,27 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
+
                         <ImageView
+                            android:id="@+id/makeCall"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:id="@+id/makeCall"
+                            android:layout_marginTop="20dp"
                             android:layout_weight="1"
                             android:padding="10dp"
-                            android:layout_marginTop="20dp"
-                            android:src="@drawable/ic_phone_black_24dp"/>
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackgroundBorderless"
+                            android:src="@drawable/ic_phone_black_24dp" />
 
                         <ImageView
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:padding="10dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackgroundBorderless"
                             android:id="@+id/makeMessage"
                             android:layout_marginTop="20dp"
                             android:src="@drawable/ic_message_black_24dp"/>
@@ -134,6 +142,15 @@
                 android:layout_margin="5dp"
                 android:layout_height="wrap_content">
 
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:orientation="vertical"
@@ -144,6 +161,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="10dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?selectableItemBackgroundBorderless"
                         android:id="@+id/directLocation"
                         android:src="@drawable/ic_location_on_black_24dp"/>
                     <TextView
@@ -177,6 +197,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="10dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?selectableItemBackgroundBorderless"
                         android:src="@drawable/service_provider"/>
                     <TextView
                         android:layout_width="match_parent"

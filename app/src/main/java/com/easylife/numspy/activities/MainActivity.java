@@ -1,4 +1,4 @@
-package com.easylife.numspy;
+package com.easylife.numspy.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,6 +17,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.easylife.numspy.R;
 import com.easylife.numspy.numspyapi.api.NumSpyClient;
 import com.easylife.numspy.numspyapi.model.User;
 import com.easylife.numspy.numspyapi.model.WrapperUser;

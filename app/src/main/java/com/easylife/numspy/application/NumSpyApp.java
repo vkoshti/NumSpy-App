@@ -1,4 +1,4 @@
-package com.easylife.numspy;
+package com.easylife.numspy.application;
 
 import android.app.Application;
 

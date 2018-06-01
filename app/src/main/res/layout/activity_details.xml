@@ -100,6 +100,9 @@
                             android:id="@+id/makeCall"
                             android:layout_weight="1"
                             android:padding="10dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
                             android:layout_marginTop="20dp"
                             android:src="@drawable/ic_phone_black_24dp"/>
 
@@ -110,6 +113,9 @@
                             android:padding="10dp"
                             android:id="@+id/makeMessage"
                             android:layout_marginTop="20dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:foreground="?selectableItemBackground"
                             android:src="@drawable/ic_message_black_24dp"/>
                     </LinearLayout>
 
@@ -144,6 +150,9 @@
                         android:layout_height="match_parent"
                         android:padding="10dp"
                         android:id="@+id/directLocation"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?selectableItemBackground"
                         android:src="@drawable/ic_location_on_black_24dp"/>
                     <TextView
                         android:layout_width="match_parent"
@@ -175,6 +184,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="10dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:foreground="?selectableItemBackground"
                         android:src="@drawable/service_provider"/>
                     <TextView
                         android:layout_width="match_parent"
