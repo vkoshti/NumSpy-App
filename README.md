@@ -38,6 +38,7 @@ For an awesome API and Suggestion for the App
 MIT License
 
 Copyright (c) 2018 Vishal Koshti
+Copyright (c) 2018 Sameer Bhatt
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
