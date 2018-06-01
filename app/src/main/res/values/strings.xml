@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NumSpy</string>
+    <string name="ask_phone">Enter 10 Digit Phone Number</string>
+    <string name="search">Search</string>
+    <string name="author_name1">SAMEER BHATT</string>
+    <string name="sameer_bio">Open Source Tech Geek | Mozillian | Python Guy | Security research | Bug Hunter | penetration tester | Learner | Writer @secjuice | <a href="https://medium.com/bhattsameer5">medium.com/@bhattsameer5</a> </string>
+    <string name="sam_website"><a href="http://bhattsameer.github.io">WEBSITE</a></string>
+    <string name="sameer_github"><a href="https://github.com/bhattsameer">GITHUB</a></string>
+    <string name="author_name2">VISHAL KOSHTI</string>
+    <string name="vishal_bio">Programmer | Android Developer\nSelf Learner\n Debugger</string>
+    <string name="vishal_web"><a href="http://vishalkoshti165.wixsite.com/vishalk">WEBSITE</a></string>
+    <string name="vishal_github"><a href="https://github.com/vkoshti">GITHUB</a></string>
+    <string name="author">AUTHOR</string>
+    <string name="app_info">Idea &amp; NumSpy API DESIGN BY:\n\n<b><u>Sameer Bhatt</u></b>\n\n\nAndroid App &amp; UI DESIGN BY:\n\n\<b><u>Vishal Koshti</u></b></string>
+</resources>

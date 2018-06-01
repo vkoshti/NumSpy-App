@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/appBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:titleEnabled="false"
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
+            >
+
+            <View android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:layout_collapseMode="parallax"
+                app:layout_collapseParallaxMultiplier="1"
+                android:background="@color/colorPrimary"/>
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                app:layout_collapseMode="parallax"
+                app:title=""
+                app:layout_scrollFlags="enterAlways"
+                android:layout_height="?actionBarSize"
+                android:id="@+id/toolBar"/>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:isScrollContainer="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="-70dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="5dp"
+                android:layout_marginBottom="30dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginEnd="30dp"
+                        android:text="@string/author"
+                        android:layout_gravity="center_horizontal"
+                        android:padding="20dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:gravity="center"
+                        android:text="@string/app_info"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardElevation="5dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:padding="20dp"
+                        android:layout_marginBottom="30dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/author_name1"/>
+
+                    <View android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/lightGray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:autoLink="web"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_marginBottom="30dp"
+                        android:textColorLink="@android:color/holo_blue_bright"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:text="@string/sameer_bio"/>
+
+                    <View android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/lightGray"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:autoLink="web"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:textColor="@android:color/holo_blue_bright"
+                            android:textColorLink="@android:color/holo_blue_bright"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/sameer_web"
+                            android:layout_weight="1"
+                            android:text="@string/sam_website"/>
+
+                        <View android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/lightGray"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:autoLink="web"
+                            android:textColor="@android:color/holo_blue_bright"
+                            android:clickable="true"
+                            android:gravity="center_horizontal"
+                            android:focusable="true"
+                            android:textColorLink="@android:color/holo_blue_bright"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/sameer_github"
+                            android:layout_weight="1"
+                            android:text="@string/sameer_github"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                app:cardElevation="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:padding="20dp"
+                        android:layout_marginBottom="30dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/author_name2"/>
+
+                    <View android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/lightGray"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="20dp"
+                        android:autoLink="web"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_marginBottom="30dp"
+                        android:textColorLink="@android:color/holo_blue_bright"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:text="@string/vishal_bio"/>
+
+                    <View android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/lightGray"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="20dp">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:autoLink="web"
+                            android:textColor="@android:color/holo_blue_bright"
+                            android:textColorLink="@android:color/holo_blue_bright"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:clickable="true"
+                            android:id="@+id/vishal_web"
+                            android:focusable="true"
+                            android:text="@string/vishal_web"/>
+
+                        <View android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/lightGray"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:autoLink="web"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:id="@+id/vishal_github"
+                            android:textColor="@android:color/holo_blue_bright"
+                            android:gravity="center_horizontal"
+                            android:textColorLink="@android:color/holo_blue_bright"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/vishal_github"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
