@@ -14,17 +14,22 @@ More Information : [NumSpy-API](https://github.com/bhattsameer/numspy-api)
 
 </br>
 
-<b>Official NumSpy Project:</b></br>
-[NumSpy](https://bhattsameer.github.io/numspy)
+<b>Official NumSpy Project:</b> [NumSpy](https://bhattsameer.github.io/numspy)
 
 
 # Screenshots
 
+</br>
+
  <img src="screenshots/SS1.png" alt="Screenshot 1" width="300px" height="500px"/> <img src="screenshots/SS2.png" alt="Screenshot 2" width="300px" height="500px"/>
+
+</br>
 
  <img src="screenshots/SS3.png" alt="Screenshot 3" width="300px" height="500px"/> <img src="screenshots/SS4.jpg" alt="Screenshot 4" width="300px" height="500px"/>
 
- <img src="screenshots/SS5.jpg" alt="Screenshot 5" width="300px" height="500px"/> <img src="screenshots/SS6.png" alt="Screenshot 6" width="300px" height="500px"/>
+</br>
+
+ <img src="screenshots/SS5.jpg" alt="Screenshot 5" width="300px" height="500px"/> <span>  </span> <img src="screenshots/SS6.png" alt="Screenshot 6" width="300px" height="500px"/>
 
 
 
