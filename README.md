@@ -38,7 +38,7 @@ More Information : [NumSpy-API](https://github.com/bhattsameer/numspy-api)
 
 # Credits
 
-![Sameer Bhatt](https://github.com/bhattsameer)
+[Sameer Bhatt](https://github.com/bhattsameer)
 For an awesome API and Suggestion for the App
 
 # License
