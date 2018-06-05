@@ -25,10 +25,11 @@ More Information : [NumSpy-API](https://github.com/bhattsameer/numspy-api)
 
 </br>
 
- <img src="screenshots/SS3.png" alt="Screenshot 3" width="300px" height="500px"/> 
+ <img src="screenshots/SS3.png" alt="Screenshot 3" width="300px" height="500px"/> <img src="screenshots/SS4.jpg" alt="Screenshot 4" width="300px" height="500px"/>
+
 </br>
 
- <img src="screenshots/SS5.jpg" alt="Screenshot 5" width="300px" height="500px"/> <span>  </span> <img src="screenshots/SS6.png" alt="Screenshot 6" width="300px" height="500px"/>
+ <img src="screenshots/SS5.jpg" alt="Screenshot 5" width="300px" height="500px"/> <img src="screenshots/SS6.png" alt="Screenshot 6" width="300px" height="500px"/>
 
 
 # Deployment
