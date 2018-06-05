@@ -32,16 +32,14 @@ More Information : [NumSpy-API](https://github.com/bhattsameer/numspy-api)
  <img src="screenshots/SS5.jpg" alt="Screenshot 5" width="300px" height="500px"/> <span>  </span> <img src="screenshots/SS6.png" alt="Screenshot 6" width="300px" height="500px"/>
 
 
+# Deployment
+
+<b> We have not uploaded this application to any app store yet, but we will soon upload it. However, you are free to download ,  compile and run this application.</b>
 
 # Credits
 
 ![Sameer Bhatt](https://github.com/bhattsameer)
 For an awesome API and Suggestion for the App
-
-
-# Deployment
-
-<b> We have not uploaded this application to any app store yet, but we will soon upload it. However, you are free to download ,  compile and run this application.</b>
 
 # License
 
