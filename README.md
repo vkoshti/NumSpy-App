@@ -1,18 +1,22 @@
 # NumSpy: Android Application ![Java](https://img.shields.io/badge/Made%20With-Java-blue.svg)
 
-<b>NumSpy: Public API:</b><br/>
+<b>NumSpy: Public API:</b>
+ NumSpy Public API which is created By [Sameer Bhatt](https://github.com/bhattsameer) provide details of any mobile number in india.</br>
 
-NumSpy Public API which is created By [Sameer Bhatt](https://github.com/bhattsameer) provide details of any mobile number in india.</br>
 More Information : [NumSpy-API](https://github.com/bhattsameer/numspy-api)
 
-<b>NumSpy: Android Application</b></br>
+<b>NumSpy: Android Application:</b>
+ It is an Android appliaction by which user can search details of any mobile number in India for free without any signup/login.
 
-It is an Android appliaction by which user can search details of any mobile number in India for free without any signup/login.
+</br>
 
 <img src="https://github.com/bhattsameer/numspy/blob/master/logo.png" alt="NumSpy logo" width="150px" height="150px"/>
 
+</br>
+
 <b>Official NumSpy Project:</b></br>
-![NumSpy](https://bhattsameer.github.io/numspy)
+[NumSpy](https://bhattsameer.github.io/numspy)
+
 
 # Screenshots
 
